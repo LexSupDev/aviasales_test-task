@@ -15,28 +15,29 @@
 
           <section class="filters">
             <form action="" class="filters__form">
-              <div class="filterBlock">
-                <label for="transferAll" class="filterBlock__label filterBlock__label--transfer">
+              <fieldset class="filterBlock">
+                <legend class="filterBlock__title">Количество пересадок</legend>
+                <div class="filterBlock__wrapper">
                   <input id="transferAll" type="checkbox" class="filterBlock__input">
-                  Все
-                </label>
-                <label for="transfer1" class="filterBlock__label filterBlock__label--transfer">
+                  <label for="transferAll" class="filterBlock__label filterBlock__label--transfer">Все</label>
+                </div>
+                <div class="filterBlock__wrapper">
                   <input id="transfer1" type="checkbox" class="filterBlock__input">
-                  1 пересадка
-                </label>
-                <label for="transfer2" class="filterBlock__label filterBlock__label--transfer">
+                  <label for="transfer1" class="filterBlock__label filterBlock__label--transfer">1 пересадка</label>
+                </div>
+                <div class="filterBlock__wrapper">
                   <input id="transfer2" type="checkbox" class="filterBlock__input">
-                  2 пересадки
-                </label>
-                <label for="transfer3" class="filterBlock__label filterBlock__label--transfer">
+                  <label for="transfer2" class="filterBlock__label filterBlock__label--transfer">2 пересадка</label>
+                </div>
+                <div class="filterBlock__wrapper">
                   <input id="transfer3" type="checkbox" class="filterBlock__input">
-                  3 пересадки
-                </label>
-                <label for="transfer4" class="filterBlock__label filterBlock__label--transfer">
+                  <label for="transfer3" class="filterBlock__label filterBlock__label--transfer">3 пересадка</label>
+                </div>
+                <div class="filterBlock__wrapper">
                   <input id="transfer4" type="checkbox" class="filterBlock__input">
-                  4 пересадки
-                </label>
-              </div>
+                  <label for="transfer4" class="filterBlock__label filterBlock__label--transfer">4 пересадка</label>
+                </div>
+              </fieldset>
             </form>
           </section>
 
@@ -44,7 +45,7 @@
             <section class="sort">
               <ul class="sort__list">
                 <li class="sort__item">
-                  <button class="sort__button btn btn--sort">Самый дешёвый</button>
+                  <button class="sort__button btn btn--sort btn--active">Самый дешёвый</button>
                 </li>
                 <li class="sort__item">
                   <button class="sort__button btn btn--sort">Самый быстрый</button>
