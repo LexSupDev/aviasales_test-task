@@ -1,6 +1,6 @@
 .btn {
   text-transform: uppercase;
-  padding: 15px;
+  padding: 14px 14px;
   font-family: inherit;
   font-size: 12px;
   font-weight: 600;
@@ -9,13 +9,15 @@
   background-color: white;
   border: 0;
 
-  //&--sort {
-  //  &:first-child {
-  //    border-radius: 5px 0 0 5px;
-  //  }
-  //  &:last-child {
-  //    border-radius: 0 5px 5px 0;
-  //  }
-  //}
+  &--sort {
+    width: 166px;
+  }
+
+  &--big {
+    width: 100%;
+    color: white;
+    background-color: #2196F3;
+    border-radius: 5px;
+  }
 }
 
